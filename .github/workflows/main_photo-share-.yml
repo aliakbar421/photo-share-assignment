@@ -30,7 +30,6 @@ jobs:
 
       - name: Set Permissions
         run: chmod -R 777 storage bootstrap/cache
-
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
